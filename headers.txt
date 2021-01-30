@@ -1,0 +1,11 @@
+Content-Type: Defines the content that the response has
+Vary: Allows the system to know if the data is going to change or if it can continue to use a cached version.
+Content-Encoding: The encoding scheme used for the content.
+Data: Date that the request was made.
+Server: Info about the server that responded.
+Cache-Control: General rules for how to store cached files.
+x-xss-protection: General field for determining if there is a cross site scripting attack.
+x-frame-options: Ensuring that this content was not embeded in another site and being used to trick users into interacting.
+x-content-type-options: used to determine if the request wants to opt out of sniffing.
+Alt-Svc: Research indicates that this is a custom header
+transfer-encoding: specifies the encoding used to get the entity to the user.
